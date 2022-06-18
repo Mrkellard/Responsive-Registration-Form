@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  height: 100%;
+  color: black;
+  width: 100%;
+  margin: 10px;
+}
+
+.container {
+  width: 50%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  background-image: url(bg-intro-desktop.png);
+  background-color: rgb(252, 81, 81);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid blue;
+}
+
+.left{
+    display: inline-flex;
+    flex-direction:;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 55%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    margin-right: 40px;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 8px;
+}
+header{
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 5px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    font-size: small;
+}
+
+.btn-free{
+    margin-bottom: 16px;
+    padding:14px ;
+    border-radius: 8px;
+}
+/*
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+       background-image: url(bg-intro-mobile.png);
+    }
+  } */
